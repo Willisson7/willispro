@@ -1,12 +1,14 @@
 import React from 'react';
 import Navbar from './nav';
-import Profilepic from "../images/Profilepic.jpg";
+import '../styles/header.css';
+// import Profilepic from "../images/Profilepic.jpg";
 function Header() {
   return (
-    <div className="main-container">
-     <h2>This the Header</h2> 
-     <img src={Profilepic} alt="Handsome Dude"/>
+    <div className="main-container" styles="margin:0">
      <Navbar></Navbar>
+     <h2>Dream. Create. Repeat.</h2> 
+     {/* <img src={Profilepic} alt="Handsome Dude"/> */}
+    
     </div>
   );
 }
