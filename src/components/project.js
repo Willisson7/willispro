@@ -1,5 +1,6 @@
 
 import React from 'react';
+// import '../styles/projects';
 
 const ProjectItem = ({ project }) => {
   const { title, description, demoLink, image } = project;

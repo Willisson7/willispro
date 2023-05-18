@@ -1,7 +1,10 @@
 
 
 .App {
-   background: linear-gradient(to bottom, #231d5b, #816fa6, #096969);
+   /* background: radial-gradient(circle at 33%, #021000, #14e02b 50%, #e6ede6 75%, #084a12 75%); */
+   
+    background: radial-gradient(at top left, rgba(50, 11, 221, 0.5), rgba(0, 0, 0, 0.5));
+
    text-align: center;
    margin: auto;
    height: 100%;
@@ -13,7 +16,7 @@
   background-repeat: no-repeat;
   border-radius: 50%;
   background: linear-gradient(to bottom left, #2b024f, #4a00e0, #ac9dd8);
-  opacity: .7;
+  /* opacity: .7; */
   width: 200px;
   height: 200px;
 
