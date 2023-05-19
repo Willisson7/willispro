@@ -36,8 +36,8 @@ function App() {
         <LoadingPage />
       ) : (
         <BrowserRouter>
-        <Navbar/>
-          <Header/>
+          <Navbar />
+          <Header />
           <img className='smile' src={Profilepic} alt="Handsome Man" />
           {/* <h1 className="animate__fadeIn">Welcome Friend!</h1> */}
           <Routes>
