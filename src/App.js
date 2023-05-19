@@ -14,6 +14,7 @@ import Portfolio from '../src/components/portfolio';
 import Resume from '../src/components/resume';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Profilepic from "./images/Profilepic.jpg";
+import Navbar from '../src/components/nav';
 
 function App() {
   const [isLoading, setIsLoading] = useState(true);
@@ -35,6 +36,7 @@ function App() {
         <LoadingPage />
       ) : (
         <BrowserRouter>
+          <Navbar />
           <Header />
           <img className='smile' src={Profilepic} alt="Handsome Man" />
           {/* <h1 className="animate__fadeIn">Welcome Friend!</h1> */}
@@ -52,3 +54,5 @@ function App() {
 }
 
 export default App;
+
+// here is my fake change
