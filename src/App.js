@@ -4,7 +4,7 @@ import 'animate.css';
 import './App.css';
 import './styles/header.css';
 import React, { useState, useEffect } from 'react';
-import LoadingPage from './components/loadingPage.js';
+import LoadingPage from '../src/components/LoadingPage';
 
 import About from '../src/components/about';
 import Contact from '../src/components/contact';
