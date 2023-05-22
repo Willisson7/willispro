@@ -2,6 +2,9 @@ import React from 'react';
 import Project from './project';
 import oldPortfolio from '../images/OldPortfolio.jpg';
 import  BrewerMe from '../images/BrewerMe.png';
+import  TeamProfiler from '../images/TPG screenshot.jpg';
+// import  BrewerMe from '../images/BrewerMe.png';
+// import  BrewerMe from '../images/BrewerMe.png';
 
 
 function Portfolio() {
@@ -14,9 +17,15 @@ function Portfolio() {
     },
     {
       title: 'BrewerMe',
-      description: 'This is an example of a project I worked on using JavaScript with a focus on thirdd party APIs',
+      description: 'This is an example of a project I worked on using JavaScript with a focus on third party APIs',
       demoLink: 'https://willisson7.github.io/BrewerMe/',
       image: BrewerMe,
+    },
+    {
+      title: 'Team Profile Generator',
+      description: 'This is an example of a project I worked on using JavaScript with a focus on third party APIs',
+      demoLink: 'https://willisson7.github.io/BrewerMe/',
+      image: TeamProfiler,
     },
   ];
   return (

@@ -1,46 +1,38 @@
-
-
 .App {
-   /* background: radial-gradient(circle at 33%, #021000, #14e02b 50%, #e6ede6 75%, #084a12 75%); */
-   
-    background: radial-gradient(at top left, rgba(50, 11, 221, 0.5), rgba(0, 0, 0, 0.5));
+  /* background: radial-gradient(circle at 33%, #021000, #14e02b 50%, #e6ede6 75%, #084a12 75%); */
 
-   text-align: center;
-   margin: auto;
-   height: 100%;
+  background: radial-gradient(at top left, rgba(50, 11, 221, 0.5), rgba(0, 0, 0, 0.5));
+  text-align: center;
+  margin: auto;
+  height: 100%;
 }
 
-.smile{
+.smile {
   display: flex-end;
   justify-content: flex-end;
   background-repeat: no-repeat;
+  border: 5px solid black;
   border-radius: 50%;
-  background: linear-gradient(to bottom left, #2b024f, #4a00e0, #ac9dd8);
   /* opacity: .7; */
   width: 200px;
   height: 200px;
 
 }
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
 
-body{
+body {
   height: 100%;
 }
 
-html{
+html {
   height: 100vh;
 }
-/* ul{
-  list-style-type: none;
-  display: flex;
-  justify-content:center;
-  background-color: rgba(184, 10, 10, 0.7);
-} */
 
-li{
+li {
   margin: 20px;
 }
 
@@ -48,11 +40,10 @@ h2 {
   margin-top: 0;
   padding-top: 10px;
   padding-bottom: 10px;
-  font-family:cursive;
+  font-family: cursive;
 }
 
-#root{
+#root {
   height: 100%;
   margin-top: 0;
 }
-

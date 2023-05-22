@@ -1,20 +1,21 @@
 
 import React from 'react';
-// import '../styles/projects';
+import '../styles/projects.css'
 
-const ProjectItem = ({ project }) => {
+const projectCards = ({ project }) => {
   const { title, description, demoLink, image } = project;
 
   return (
-    <div>
+    <div className='card-container'>
       <h2>{title}</h2>
-      <p>{description}</p>
+      <img src={image} alt={title} />
       <a href={demoLink} target="_blank" rel="noopener noreferrer">
         View Demo
       </a>
-      <img src={image} alt={title} />
+      <p>{description}</p>
     </div>
   );
 };
 
-export default ProjectItem;
+
+export default projectCards;
