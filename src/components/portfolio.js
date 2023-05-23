@@ -11,7 +11,7 @@ function Portfolio() {
   const projects = [
     {
       title: 'Test Portfolio',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+      description: 'This was my first attempt at creating a webpage portfolio, utilizing HTML, CSS, and JavaS',
       demoLink: 'https://willisson7.github.io/Willison7-Portfolio/#work',
       image: oldPortfolio,
     },
@@ -23,8 +23,8 @@ function Portfolio() {
     },
     {
       title: 'Team Profile Generator',
-      description: 'This is an example of a project I worked on using JavaScript with a focus on third party APIs',
-      demoLink: 'https://willisson7.github.io/BrewerMe/',
+      description: 'An app that was created to help me learn Node.js',
+      demoLink: 'https://willisson7.Team-Profile-Generator',
       image: TeamProfiler,
     },
   ];

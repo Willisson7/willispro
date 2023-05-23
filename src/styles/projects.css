@@ -8,8 +8,15 @@
   background-color: chartreuse;
   box-shadow: 0 5px 10px rgba(6, 215, 142, 0.471);
   padding: 5px;
-  margin-bottom: 20px;
+  margin: 20px;
   width:300px;
+}
+ 
+.project-container{
+  display: flex;
+  flex-direction: row;
+  align-items:center ;
+  
 }
 
 h2 {
