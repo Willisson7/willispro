@@ -3,8 +3,8 @@ import Project from './project';
 import oldPortfolio from '../images/OldPortfolio.jpg';
 import  BrewerMe from '../images/BrewerMe.png';
 import  TeamProfiler from '../images/TPG screenshot.jpg';
-// import  BrewerMe from '../images/BrewerMe.png';
-// import  BrewerMe from '../images/BrewerMe.png';
+import ColoredScreenShot  from '../images/ColoredScreenShot.jpg';
+import  WeatherApp from '../images/WeatherApp.jpg';
 
 
 function Portfolio() {
@@ -23,17 +23,32 @@ function Portfolio() {
     },
     {
       title: 'Team Profile Generator',
-      description: 'An app that was created to help me learn Node.js',
-      demoLink: 'https://willisson7.Team-Profile-Generator',
+      description: 'This is a simple web app that was created to help me learn Node.js',
+      demoLink: 'https://willisson7.team-profile-generator',
       image: TeamProfiler,
     },
+    {
+      title: 'Simple Weather App',
+      description: 'This was a project where I got to experiment with css frameworks and third party APIs',
+      demoLink: 'https://willisson7.team-profile-generator',
+      image: WeatherApp,
+    },
+    {
+      title: 'Daily Scheduler',
+      description: 'An app that was created to help me learn Node.js',
+      demoLink: 'https://willisson7.team-profile-generator',
+      image: ColoredScreenShot,
+    },
+  
   ];
   return (
+    <div>
+     <h2> Works</h2> 
     <div className="project-container">
-     <h2>My Collective Works</h2> 
      {projects.map((project, index) => (
         <Project key={index} project={project} />
       ))}
+      </div>
     </div>
   );
 }

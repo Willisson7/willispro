@@ -1,5 +1,6 @@
 footer-container{
-    padding-top: 200px;
-    background-color: black;
-    margin-top: 20%;
+    margin-top: 50px;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
 }
