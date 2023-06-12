@@ -1,7 +1,8 @@
 .App {
 
-  background: radial-gradient(at top left, rgb(30, 241, 6), rgba(0, 0, 0, 0.978));
+  background: radial-gradient(at top left, rgb(41, 6, 241), rgba(0, 0, 0, 0.978));
   text-align: center;
+  
 
   margin: auto;
   height: 100vh;
@@ -13,7 +14,7 @@
   background-repeat: no-repeat;
   border: 5px solid black;
   border-radius: 25%;
-  /* opacity: .7; */
+
   width: 200px;
   height: 200px;
 
@@ -27,10 +28,6 @@
 body {
   height: 100vh;
 }
-/* 
-html {
-  height: 100vh;
-} */
 
 li {
   margin: 20px;

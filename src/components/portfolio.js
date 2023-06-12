@@ -5,6 +5,7 @@ import  BrewerMe from '../images/BrewerMe.png';
 import  TeamProfiler from '../images/TPG screenshot.jpg';
 import ColoredScreenShot  from '../images/ColoredScreenShot.jpg';
 import  WeatherApp from '../images/WeatherApp.jpg';
+import BarkBuddy from '../images/Bark-Buddy.png'
 
 
 function Portfolio() {
@@ -38,6 +39,12 @@ function Portfolio() {
       description: 'An app that was created to help me learn Node.js',
       demoLink: 'https://willisson7.team-profile-generator',
       image: ColoredScreenShot,
+    },
+    {
+      title: 'Bark-Buddy',
+      description: 'Bark-Buddy is a react app that incorporates everything I learned during the Full Stack Web Development Bootcamp. Bark Buddy was collabrative effort between me and several classmates.',
+      demoLink: 'http://cf-bark-buddy.herokuapp.com/',
+      image: BarkBuddy,
     },
   
   ];
