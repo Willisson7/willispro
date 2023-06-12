@@ -1,0 +1,48 @@
+
+  .contact-card {
+    background-color: aqua;
+    border: 5px black;
+    border-radius: 5px ;
+    width: 33.33%;
+    height: 33.33vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    opacity: .7;
+  }
+  
+  .contact-card form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+  }
+  
+  .contact-card form div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .contact-card form label {
+    margin-right: 10px;
+  }
+  
+  .contact-card form input,
+  .contact-card form textarea {
+    width: 200px;
+    padding: 5px;
+  }
+  
+  .contact-card form button {
+    margin: 10px;
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
