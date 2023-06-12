@@ -11,6 +11,7 @@ ul{
     list-style-type: none;
     display: flex;
     justify-content: flex-end;
+    color: white;
     background-color: rgba(23, 23, 24, 0.962);
   }
 
@@ -18,4 +19,8 @@ ul{
     position: sticky; 
     top: 0;
     z-index: 100;
+  }
+
+  .navlink{
+    color: white;
   }
