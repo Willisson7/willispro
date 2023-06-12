@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/willispro/static/css/main.37f0ece6.css",
+    "main.js": "/willispro/static/js/main.96d942f4.js",
+    "static/js/787.8e877a37.chunk.js": "/willispro/static/js/787.8e877a37.chunk.js",
+    "static/media/OldPortfolio.jpg": "/willispro/static/media/OldPortfolio.9ed9adb942a5fb8becb2.jpg",
+    "static/media/ClearShot.png": "/willispro/static/media/ClearShot.3707d3c737849ccdb5a1.png",
+    "static/media/Profilepic.jpg": "/willispro/static/media/Profilepic.384b3f5cba43595148c7.jpg",
+    "static/media/TPG screenshot.jpg": "/willispro/static/media/TPG screenshot.fc4c6f872460d6299f96.jpg",
+    "static/media/ColoredScreenShot.jpg": "/willispro/static/media/ColoredScreenShot.5fe662ef36e6f6094792.jpg",
+    "static/media/WeatherApp.jpg": "/willispro/static/media/WeatherApp.db7aeef88a0ec06ba810.jpg",
+    "static/media/BrewerMe.png": "/willispro/static/media/BrewerMe.5c99b8e50a84d4b6a6de.png",
+    "index.html": "/willispro/index.html",
+    "main.37f0ece6.css.map": "/willispro/static/css/main.37f0ece6.css.map",
+    "main.96d942f4.js.map": "/willispro/static/js/main.96d942f4.js.map",
+    "787.8e877a37.chunk.js.map": "/willispro/static/js/787.8e877a37.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.37f0ece6.css",
+    "static/js/main.96d942f4.js"
+  ]
+}
