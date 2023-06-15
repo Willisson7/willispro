@@ -1,25 +1,8 @@
 .App {
-
-  background: radial-gradient(at top left, rgb(41, 6, 241), rgba(0, 0, 0, 0.978));
   text-align: center;
-  
-
   margin: auto;
-  height: 100vh;
+  height: 100vh; 
 }
-
-.smile {
-  display: flex-end;
-  justify-content: flex-end;
-  background-repeat: no-repeat;
-  border: 5px solid black;
-  border-radius: 25%;
-
-  width: 200px;
-  height: 200px;
-
-}
-
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -30,6 +13,7 @@ body {
 }
 
 li {
+  color: #cd1467;
   margin: 20px;
 }
 

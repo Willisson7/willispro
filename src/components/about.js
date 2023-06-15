@@ -1,15 +1,16 @@
 import React from 'react';
+import '../styles/about.css';
 
 // About component to describe the author
 function About() {
   return (
     <div className="main-container">
       <h2>About Me</h2>
-      <p>
-        My name is Grant and I am an aspiring full-stack developer. I am currently enrolled in a coding bootcamp to beef up my tech skills and create a portfolio of completed projects along the way. I'll be learning JavaScript and React, along with several other languages and developer tools.
+      <p className='info'>
+        Welcome to my profile. My name is Grant, and I am an ambitious full-stack developer with a strong passion for creating innovative solutions. Currently, I am actively engaged in a coding bootcamp where I am honing my technical skills and building a diverse portfolio of completed projects. Throughout this journey, I am acquiring expertise in JavaScript, React, and various other programming languages and developer tools.
       </p>
-      <p>
-        I have a dream/goal of creating my own personal website, where I can share my thoughts and theories about my favorite subjects and interact with like-minded individuals. Meaningful conversations about important topics are of great interest to me. I believe that there is a little nerd inside all of us just waiting to be valued and appreciated.
+      <p className='info'>
+        My ultimate aspiration is to establish a prominent online presence through a personal website. This platform will serve as a hub for sharing my profound insights and theories on a wide range of topics, enabling me to connect and engage with like-minded individuals. I firmly believe in the power of meaningful conversations that delve into significant subjects. Cultivating a stimulating environment where individuals can contribute and exchange ideas is of paramount importance to me. After all, I firmly believe that everyone possesses an inner nerd yearning to be cherished and appreciated.
       </p>
     </div>
   );

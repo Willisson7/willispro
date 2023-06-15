@@ -1,0 +1,32 @@
+.main-container {
+    /* background-color: #ffffff; */
+    color: #fdfbfb;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(250, 250, 250, 0.3);
+  }
+  
+  h2 {
+    font-size: xx-large;
+    color: #ffffff;
+   border-bottom: 2px solid white;
+    padding: 10px;
+    border-radius: 0px;
+    margin-bottom: 20px;
+  }
+  
+.info {
+    color: #fdfbfb;
+    margin-bottom: 10px;
+    font-size: large;
+  }
+  
+  /* Optional: Add more styles to make the content stand out */
+  
+  .main-container {
+    max-width: 600px;
+    margin: 0 auto;
+    color: white;
+  }
+  
+  

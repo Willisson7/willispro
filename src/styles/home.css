@@ -1,0 +1,29 @@
+.home-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+  }
+  
+  h1 {
+    color: #faf8f8;
+    font-size: 40px;
+    text-align: center;
+  }
+  
+  .info {
+    color: #fdfcfc;
+    font-size: 20px;
+    text-align: center;
+    margin: 10px 0;
+  }
+  
+  .emphasize {
+    font-weight: bold;
+    font-size: xx-large;
+    color: #cd1467;
+  }
+  
+  

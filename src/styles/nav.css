@@ -1,0 +1,39 @@
+.pro {
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transform: translate(-50%, -50%);
+  }
+
+.navHeader {
+    background-color: black;
+    /* border-bottom: 2px solid #cd1467; */
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+  
+  .navlink {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: #fbf8f8;
+    text-decoration: none;
+    padding: 10px 15px;
+    margin-right: 5px;
+    transition: color 0.3s ease;
+  }
+  
+
+  .navlink:hover {
+    color: #cd1467;
+  }
+  
+  ul {
+    margin-top: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
