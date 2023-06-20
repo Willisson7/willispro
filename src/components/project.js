@@ -3,7 +3,7 @@ import React from 'react';
 import '../styles/projects.css'
 
 const ProjectCards = ({ project }) => {
-  const { title, description, demoLink, image } = project;
+  const { title, description, demoLink, GithubRepo, image } = project;
 
   return (
     <div className='card-container'>
@@ -12,6 +12,9 @@ const ProjectCards = ({ project }) => {
       <p>{description}</p>
       <a href={demoLink} target="_blank" rel="noopener noreferrer">
         View Demo
+      </a>
+      <a href={GithubRepo} target="_blank" rel="noopener noreferrer">
+        View Repository
       </a>
     </div>
   );

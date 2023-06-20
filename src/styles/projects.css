@@ -41,6 +41,7 @@ a {
 
 a:hover {
   text-decoration: underline;
+  color: #cd1467;
 }
 
 img {
@@ -51,7 +52,8 @@ img {
   max-height: 200px;
   object-fit: cover;
   border-radius: 4px;
-  margin-bottom: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 p {
