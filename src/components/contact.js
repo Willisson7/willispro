@@ -1,20 +1,24 @@
 import React, { useState } from 'react';
-import '../styles/contact.css'; // Import the CSS file for styling
+import '../styles/contact.css';
 import axios from 'axios';
 
 function ContactCard() {
   const [formData, setFormData] = useState({ name: '', email: '', message: '' });
+  const [showResponse, setShowResponse] = useState(false);
 
   function handleSubmit(event) {
-    event.preventDefault(); // Prevents the default form submission behavior
-    // Perform desired action with form data
+    event.preventDefault();
     axios
       .post('https://getform.io/f/eacca745-797c-4830-a65f-686e27063277', {
         name: formData.name,
         email: formData.email,
         message: formData.message,
       })
-      .then(response => console.log(response))
+      .then(() => {
+        setShowResponse(true);
+        setFormData({ name: '', email: '', message: '' });
+        setTimeout(() => setShowResponse(false), 10000);
+      })
       .catch(error => console.log(error));
   }
 
@@ -56,9 +60,14 @@ function ContactCard() {
             onChange={handleChange}
           ></textarea>
         </div>
-        {/* Add additional form fields */}
         <button type="submit">Submit</button>
       </form>
+
+      {showResponse && (
+        <div className="response-message" onClick={() => setShowResponse(false)}>
+          Thank You! Your message has been sent. I will respond to you as soon as I am able.
+        </div>
+      )}
     </div>
   );
 }
