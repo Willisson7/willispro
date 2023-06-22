@@ -1,77 +1,63 @@
+
 import React from 'react';
+import resumeLink from "./resume2023.pdf";
 
-function Resume() {
-  const resumeData = {
-    name: 'Grant Willis',
-    title: 'Full Stack Web Developer',
-    education: [
-      {
-        institution: 'University of Arizona',
-        degree: 'Certification of ',
-        graduationYear: 2023,
-      },
-    ],
-    experience: [
-      {
-        company: 'Department of Justice-Bureau of Prisons',
-        position: 'Senior Officer Specialist GS-08-07',
-        startDate: '2015',
-        endDate: '2022',
-        responsibilities: [
-          'Developed and maintained web applications using React.js',
-          'Collaborated with cross-functional teams to deliver high-quality software',
-        ],
-      },
-    ],
-    skills: ['JavaScript', 'React', 'CSS', 'HTML', 'Git'],
-  };
-
+const ResumePage = () => {
   return (
-    <div className="main-container">
-      <div className="resume">
-        <div className="header">
-          <h1>{resumeData.name}</h1>
-          <h2>{resumeData.title}</h2>
+    <div className="resume-page">
+      <header>
+        <h1>Grant Willis</h1>
+        <p>Phone: (928) 965-7404 | Email: thegwillis.gw@gmail.com</p>
+        <div>
+       <a href={resumeLink} download="resume2023.pdf">Download Resume</a>
         </div>
+      </header>
 
-        <div className="section">
-          <h3>Education</h3>
-          {resumeData.education.map((edu, index) => (
-            <div key={index}>
-              <h4>{edu.institution}</h4>
-              <p>{edu.degree}</p>
-              <p>Graduation Year: {edu.graduationYear}</p>
-            </div>
-          ))}
-        </div>
+      <section className="resume-section">
+        <h2>Education</h2>
+        <ul>
+          <li>
+            <h3>Bachelors of Applied Technology</h3>
+            <p>BYU-Idaho, 2024</p>
+          </li>
+          {/* Add more education entries */}
+          <li>
+            <h3>Associate of General Studies</h3>
+            <p>Eastern Arizona College, 2018</p>
+          </li>
+          <li>
+            <h3>Full Stack Web Development Flex Course</h3>
+            <p>University of Arizona, 2023</p>
+          </li>
+        </ul>
+      </section>
 
-        <div className="section">
-          <h3>Experience</h3>
-          {resumeData.experience.map((exp, index) => (
-            <div key={index}>
-              <h4>{exp.company}</h4>
-              <p>{exp.position}</p>
-              <p>{exp.startDate} - {exp.endDate}</p>
-              <ul>
-                {exp.responsibilities.map((resp, idx) => (
-                  <li key={idx}>{resp}</li>
-                ))}
-              </ul>
-            </div>
-          ))}
-        </div>
+      <section className="resume-section">
+        <h2>Work Experience</h2>
+        <ul>
+          <li>
+            <h3>Senior-Officer Specialist Gs-07</h3>
+            <p>Department of Justice/Bureau of Prisons | April 2015 - December 2022</p>
+            <ul>
+              <li>Responsibility 1</li>
+              <li>Responsibility 2</li>
+              {/* Add more responsibilities */}
+            </ul>
+          </li>
+          {/* Add more work experience entries */}
+        </ul>
+      </section>
 
-        <div className="section">
-          <h3>Skills</h3>
-          <ul>
-            {resumeData.skills.map((skill, index) => (
-              <li key={index}>{skill}</li>
-            ))}
-          </ul>
-        </div>
-      </div>
+      <section className="resume-section">
+        <h2>Skills</h2>
+        <ul>
+          <li>Skill 1</li>
+          <li>Skill 2</li>
+          {/* Add more skills */}
+        </ul>
+      </section>
     </div>
   );
-}
+};
 
-export default Resume;
+export default ResumePage;

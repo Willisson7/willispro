@@ -43,6 +43,7 @@ function Portfolio() {
       title: 'Daily Scheduler',
       description: 'An app that was created to help me learn Node.js',
       demoLink: 'https://willisson7.team-profile-generator',
+      GithubRepo:'https://github.com/Willisson7/',
       image: ColoredScreenShot,
     },
     {
