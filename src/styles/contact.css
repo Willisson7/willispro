@@ -12,6 +12,7 @@
   left: 50%;
   transform: translate(-50%, -50%);
   box-sizing: border-box;
+  box-shadow: 0 5px 10px rgba(242, 244, 243, 0.471);
 }
 
 

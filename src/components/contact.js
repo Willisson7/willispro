@@ -31,7 +31,7 @@ function ContactCard() {
       <h2>Contact Me</h2>
       <form onSubmit={handleSubmit}>
         <div>
-          <label htmlFor="name">Name:</label>
+          <label htmlFor="name">Your Name:</label>
           <input
             type="text"
             id="name"
@@ -41,7 +41,7 @@ function ContactCard() {
           />
         </div>
         <div>
-          <label htmlFor="email">Email:</label>
+          <label htmlFor="email">Your Email:</label>
           <input
             type="email"
             id="email"
@@ -51,7 +51,7 @@ function ContactCard() {
           />
         </div>
         <div>
-          <label id="message-label" htmlFor="message">Message:</label>
+          <label id="message-label" htmlFor="message">Message For Me:</label>
           <textarea
             id="message"
             name="message"

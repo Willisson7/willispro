@@ -48,14 +48,14 @@ const ResumePage = () => {
         </ul>
       </section>
 
-      <section className="resume-section">
+      {/* <section className="resume-section">
         <h2>Skills</h2>
         <ul>
           <li>Skill 1</li>
           <li>Skill 2</li>
-          {/* Add more skills */}
+        
         </ul>
-      </section>
+      </section> */}
     </div>
   );
 };
