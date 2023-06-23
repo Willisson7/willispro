@@ -19,7 +19,7 @@ function Portfolio() {
     },
     {
       title: 'BrewerMe',
-      description: 'This is an example of a project I worked on using JavaScript with a focus on third party APIs',
+      description: 'Html, Css, javascript, third-party APIs',
       demoLink: 'https://willisson7.github.io/BrewerMe/',
       GithubRepo:'https://github.com/Willisson7/BrewerMe',
       image: BrewerMe,
@@ -27,7 +27,7 @@ function Portfolio() {
     
     {
       title: 'Team Profile Generator',
-      description: 'This is a simple web app that was created to help me learn Node.js',
+      description: 'Node.js',
       demoLink: 'https://willisson7.team-profile-generator',
       GithubRepo:'https://github.com/Willisson7/Team-Profile-Generator',
       image: TeamProfiler,

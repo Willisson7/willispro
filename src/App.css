@@ -25,6 +25,16 @@ h2 {
   font-family: cursive;
 }
 
+.fade-in {
+  opacity: 0;
+  transition: opacity 2s ease-in-out;
+}
+
+.fade-in.active {
+  opacity: 1;
+}
+
+
 #root {
   height: 100vh;
   margin-top: 0;

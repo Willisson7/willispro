@@ -26,4 +26,24 @@
     color: #cd1467;
   }
   
+  .button-container {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .portfolio-button {
+    display: inline-block;
+    background-color: #000;
+    box-shadow: 0 1px 3px rgba(242, 244, 243, 0.471);
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .arrow-icon {
+    margin-left: 5px;
+    vertical-align: middle;
+  }
   

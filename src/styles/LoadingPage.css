@@ -25,7 +25,7 @@
     justify-content: center;
     transition: opacity 2s ease-in-out;
   }
-  
+
   .fade-in {
     opacity: 1;
   }
