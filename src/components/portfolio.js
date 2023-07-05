@@ -2,14 +2,19 @@ import React from 'react';
 import Project from './project';
 import oldPortfolio from '../images/OldPortfolio.jpg';
 import  BrewerMe from '../images/BrewerMe.png';
-import  TeamProfiler from '../images/TPG screenshot.jpg';
-import ColoredScreenShot  from '../images/ColoredScreenShot.jpg';
-import  WeatherApp from '../images/WeatherApp.jpg';
 import BarkBuddy from '../images/Bark-Buddy.png'
 
 
 function Portfolio() {
   const projects = [
+
+    {
+      title: 'Bark-Buddy',
+      description: 'Bark-Buddy is a react app that incorporates everything I learned during the Full Stack Web Development Bootcamp. Bark Buddy was collabrative effort between me and several classmates.',
+      demoLink: 'http://cf-bark-buddy.herokuapp.com/',
+      GithubRepo:'https://github.com/123sites/bark-buddy',
+      image: BarkBuddy,
+    },
     {
       title: 'Test Portfolio',
       description: 'This was my first attempt at creating a webpage portfolio, utilizing HTML, CSS, and JavaS',
@@ -25,35 +30,6 @@ function Portfolio() {
       image: BrewerMe,
     },
     
-    {
-      title: 'Team Profile Generator',
-      description: 'Node.js',
-      demoLink: 'https://willisson7.team-profile-generator',
-      GithubRepo:'https://github.com/Willisson7/Team-Profile-Generator',
-      image: TeamProfiler,
-    },
-    {
-      title: 'Simple Weather App',
-      description: 'This was a project where I got to experiment with css frameworks and third party APIs',
-      demoLink: 'https://willisson7.team-profile-generator',
-      GithubRepo:'https://github.com/Willisson7/myWeatherApp',
-      image: WeatherApp,
-    },
-    {
-      title: 'Daily Scheduler',
-      description: 'An app that was created to help me learn Node.js',
-      demoLink: 'https://willisson7.team-profile-generator',
-      GithubRepo:'https://github.com/Willisson7/',
-      image: ColoredScreenShot,
-    },
-    {
-      title: 'Bark-Buddy',
-      description: 'Bark-Buddy is a react app that incorporates everything I learned during the Full Stack Web Development Bootcamp. Bark Buddy was collabrative effort between me and several classmates.',
-      demoLink: 'http://cf-bark-buddy.herokuapp.com/',
-      GithubRepo:'https://github.com/123sites/bark-buddy',
-      image: BarkBuddy,
-    },
-  
   ];
   return (
     <div>

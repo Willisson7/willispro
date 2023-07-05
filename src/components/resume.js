@@ -9,7 +9,7 @@ const ResumePage = () => {
         <h1>Grant Willis</h1>
         <p>Phone: (928) 965-7404 | Email: thegwillis.gw@gmail.com</p>
         <div>
-       <a href={resumeLink} download="resume2023.pdf">Download Resume</a>
+       <a href={resumeLink} download="resume2023.pdf">Willis Resume</a>
         </div>
       </header>
 
@@ -39,23 +39,13 @@ const ResumePage = () => {
             <h3>Senior-Officer Specialist Gs-07</h3>
             <p>Department of Justice/Bureau of Prisons | April 2015 - December 2022</p>
             <ul>
-              <li>Responsibility 1</li>
-              <li>Responsibility 2</li>
+          
               {/* Add more responsibilities */}
             </ul>
           </li>
           {/* Add more work experience entries */}
         </ul>
       </section>
-
-      {/* <section className="resume-section">
-        <h2>Skills</h2>
-        <ul>
-          <li>Skill 1</li>
-          <li>Skill 2</li>
-        
-        </ul>
-      </section> */}
     </div>
   );
 };
